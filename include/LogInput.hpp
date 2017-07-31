@@ -2,6 +2,7 @@
 #define LOGGER_LOGINPUT_HPP
 
 #include <string>
+#include <Logger.hpp>
 
 namespace logger {
 
