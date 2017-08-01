@@ -36,7 +36,7 @@ include_directories(${LOGGER_INCLUDE_DIRS})
 
 add_subdirectory(source)
 
-add_library(${LOGGER_LIBRARY} ${LOGGER_SOURCES})
+add_library(${LOGGER_LIBRARY} STATIC ${LOGGER_SOURCES})
 set(LOGGER_LIBRARIES "")
 target_link_libraries(${LOGGER_LIBRARY} ${LOGGER_LIBRARIES})
 

@@ -4,7 +4,7 @@
 #include <mutex>
 #include <string>
 
-#include <Logger.hpp>
+#include "Logger.hpp"
 
 namespace logger {
 
