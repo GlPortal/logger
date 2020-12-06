@@ -9,6 +9,7 @@ set(LOGGER_SOURCES
   ${D}/AnsiConsoleLogger.cpp
   ${D}/Logger.cpp
   ${D}/LogInput.cpp
+  ${D}/NullLogger.cpp
   ${D}/StdoutLogger.cpp
   ${D}/LoggerFactory.cpp
   PARENT_SCOPE
